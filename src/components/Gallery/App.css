@@ -1,0 +1,50 @@
+.tags {
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #0F3057;
+}
+
+.tag {
+  outline: none;
+  border: none;
+  color: #E7E7DE;
+  margin: 0px 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size:15px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 1px solid rgb(221, 212, 212);
+transition: 1s;
+}
+
+.containerr {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.image-card {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 2px; 
+   background: #E7E7DE;
+}
+
+.image {
+  width: 100%;
+}
+
+button{
+
+  width: 20%;
+
+}
